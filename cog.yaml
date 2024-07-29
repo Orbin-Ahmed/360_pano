@@ -18,5 +18,4 @@ build:
     - "triton"
     - "transformers"
     - "py360convert"
-    - "pillow"
 predict: "predict.py:Predictor"
