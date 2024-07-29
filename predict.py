@@ -42,9 +42,6 @@ class Predictor(BasePredictor):
             seed = int.from_bytes(os.urandom(2), "big")
         print(f"Using seed: {seed}")
         
-        if self.mask_image:
-            print("Mask Loaded")
-        
         input_dict = {
             'prompt': prompt,
             'upscale': upscale,
